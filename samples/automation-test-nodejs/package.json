@@ -1,11 +1,11 @@
 {
   "name": "kobiton-sample",
   "version": "1.0.0",
-  "description": "This a sample test",
+  "description": "Sample test to integrate with Travis CI",
   "scripts": {
-    "automation-test": "mocha --require babel-core/register --no-timeouts automation-test.js"
+    "automation-test-script": "mocha --require babel-core/register --no-timeouts automation-test-script.js"
   },
-  "author": "Kobiton Inc",
+  "author": "Kobiton Inc.",
   "license": "ISC",
   "dependencies": {
     "babel-core": "^6.26.0",
